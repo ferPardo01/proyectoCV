@@ -1,0 +1,83 @@
+* {
+    box-sizing: border-box;
+    font-family:Georgia, 'Times New Roman', Times, serif
+  }
+
+  img {
+    border-radius: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    cursor: grab;
+  }
+  
+  .personal {
+    width: 25%;
+    float: left;
+    padding: 15px;
+    background-color: rgb(220, 220, 220);
+  }
+  
+  .personal button {
+  display: grid;
+  margin-top: 10%;
+  margin-left: 20%;
+  width: 180px;
+  height: 30px;
+  text-align: center;
+  vertical-align: middle;
+  background-color: lightgray;
+  }
+
+  .personal button span{
+    margin-top: 3%;
+    }
+
+  .personal div{
+    width: 50%;
+    float: left;
+  }
+  .personal p {
+    text-align: center;
+  }
+
+  p {
+    margin-block-start: 0.5em;
+    margin-block-end: 0.5em;
+  }
+  
+  .experiencia {
+    width: 75%;
+    float: left;
+    padding: 15px ;
+  }
+
+  .experiencia h1 {
+    text-align: center;
+    letter-spacing:0.4em;
+    background-color: burlywood;
+  }
+
+  .experiencia h3 {
+    text-align: center;
+    background-color: burlywood;
+  }
+
+  .fechas {
+    width: 20%;
+    float: left;
+  }
+
+  .empresas {
+    width: 80%;
+    float: left;
+  }
+  .empresas h4,h5{
+    margin-block-start: 0.5em;
+    margin-block-end: 0.5em;
+  }
+  #idiomas{
+    text-align: left;
+    margin-top: 10%;
+  }
